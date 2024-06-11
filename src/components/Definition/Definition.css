@@ -1,0 +1,138 @@
+.meanings {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+    margin-top: 5%;
+    line-height:normal;
+    overflow-x: hidden;
+    }
+
+@media (max-width: 768px) {
+    .meanings {
+      line-height: 30px; 
+      
+    }
+  }
+@media (max-width: 425px) {
+    .meanings {
+      padding: 2%;
+
+    }
+  }
+
+.subTitle{
+    font-size: 5vw;
+    font-family: "Montserrat",sans-serif;
+}
+.singleMean{
+    display:flex;
+    flex-direction: column;
+    border-radius: 10px;
+    /* padding: 10px 20px; */
+    margin: 10px 0;
+}
+ 
+.dictionary-side{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.content{
+   border-left: 1px solid gray; 
+   height: 90px;
+   /* padding: 200px; */
+}
+.translator-cover{
+    margin-bottom: 5%;
+    /* background-color: yellow; */
+}
+.speech-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* margin-bottom: 5%; */
+}
+
+.speech-name p{
+font-weight: bold;
+font-style: italic;
+}
+.speech-name hr{
+    width: 100%;
+    height: 2px;
+    border: 0;
+    margin-top: 6px;
+    background-color:#f3f2f2;
+    outline: 0;
+}
+
+.speech-defintion{
+    margin-top: 3%;
+}
+.speech-defintion p{
+    color: rgb(154, 153, 153);
+    font-family: sans-serif;
+}
+ ul li {
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-family:Arial, Helvetica, sans-serif;
+    list-style: disc;
+
+}
+    .speech-defintion ul  span{
+    margin-left: 4%;
+    /* margin-top: 4px; */
+   color: gray;
+}
+
+.synonyms  , .antonyms{
+    /* padding: 1%; */
+    display: flex;
+    margin-top: 3%;
+    font-family: sans-serif;
+    font-size: 15px; 
+    gap: 2%;
+    
+}
+.synonyms p ,.antonyms p{
+    color: rgb(154, 153, 153);
+   
+}
+
+@media(max-width:900px){
+.meanings{
+    /* height: 60vh; */
+    /* overflow-x: hidden; */
+    /* overflow-y: scroll; */
+}
+}
+
+
+.audio-player {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#play-pause {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#seek-bar {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+
+
