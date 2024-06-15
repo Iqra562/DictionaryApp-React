@@ -48,17 +48,7 @@ function Layout(){
       },
     }));
 
-    // const DarkMode = styled(Switch)(({ theme }) => ({
-    //   '& .MuiSwitch-switchBase.Mui-checked': {
-    //     color: grey[400],
-    //     '&:hover': {
-    //       backgroundColor: alpha(grey[400], theme.palette.action.hoverOpacity),
-    //     },
-    //   },
-    //   '& .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track': {
-    //     backgroundColor: grey[400],
-    //   },
-    // }));
+
  
     
 
